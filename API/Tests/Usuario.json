@@ -1,0 +1,30 @@
+//Único objeto - JSON - Notação de Objeto em JS
+{
+    "Nome" : "diogo@diogo.com",
+    "cpf" : "13105484981",
+    "DataDeNascimento" : "25/10/2002",
+    "acessos" : 554,
+    "avaliacao" : 5.4,
+    "ativo" : true
+}
+
+//Vários objetos
+[
+    {
+        "Nome" : "diogo@diogo.com",
+        "cpf" : "13105484981",
+        "DataDeNascimento" : "25/10/2002",
+        "acessos" : 554,
+        "avaliacao" : 5.4,
+        "ativo" : true
+    },
+    {
+        "Nome" : "diogo@diogo.com",
+        "cpf" : "13105484981",
+        "DataDeNascimento" : "25/10/2002",
+        "acessos" : 554,
+        "avaliacao" : 5.4,
+        "ativo" : true
+    }
+]
+

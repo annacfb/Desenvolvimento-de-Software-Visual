@@ -1,0 +1,18 @@
+### Listar os usuários
+GET https://localhost:5001/api/usuario/listar
+
+### Buscar um usuário
+GET https://localhost:5001/api/usuario/buscar/diogo
+
+### Cadastrar um usuário
+POST https://localhost:5001/api/usuario/cadastrar
+
+###
+POST https://localhost:5001/api/usuario/deletar
+Content-Type: application/json
+
+{
+    "Nome" : "diogo",
+    "cpf" : "13105484981",
+    "DataDeNascimento" : "25/10/2002"
+}
